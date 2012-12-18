@@ -9,7 +9,7 @@ require "mongoid"
 require "rspec"
 
 Mongoid.configure do |config|
-  config.connect_to("kiqstand_test")
+  config.master = Mongo::Connection.new.db("kiqstand_test")
   config.identity_map_enabled = true
 end
 

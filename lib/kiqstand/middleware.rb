@@ -20,8 +20,8 @@ module Kiqstand
     ensure
       if defined?(::Mongoid)
         ::Mongoid::IdentityMap.clear
-        ::Mongoid.disconnect_sessions
       end
     end
+    private
   end
 end
