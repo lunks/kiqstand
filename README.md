@@ -1,14 +1,12 @@
 Kiqstand [![Build Status](https://secure.travis-ci.org/mongoid/kiqstand.png?branch=master&.png)](http://travis-ci.org/mongoid/kiqstand)
 ========
 
-Kiqstand is a middleware for Sidekiq for use with Mongoid 3.
+Kiqstand is a middleware for Sidekiq for use with Mongoid 2.
 
 Compatibility
 -------------
 
 Kiqstand is tested against MRI 1.9.3, 2.0.0.
-
-Kiqstand requires at least Mongoid 3.0.3, and Moped 1.2.0.
 
 Documentation
 -------------
